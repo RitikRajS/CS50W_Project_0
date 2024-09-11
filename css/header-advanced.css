@@ -1,0 +1,80 @@
+header{
+    display:flex;
+    height:48px;
+    padding: 8px;
+    align-items: center;
+    font: 14px Arial;
+    color:#1f1f1f;
+}
+
+
+header a {
+    color:black;
+    text-decoration: none;
+}
+
+ #home-image, #home-page, #home, #app, #sign-in{
+    display:inline-block;
+    cursor:pointer;
+}
+
+
+#home-page{
+    padding-left : 12px;
+}
+
+#home-page, #home-image{
+    display:inline-block;
+    align-items: center;
+    margin:0px;
+    height:24px;
+    width: 74px;
+}
+
+#topright{
+    display:flex;
+    justify-content: flex-end;
+    align-items:center;
+    flex-grow:1;
+    height:100%;
+    min-width:auto;
+    padding:0px 4px 0px 30px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+#home{
+    padding:0px 15px
+}
+
+#app {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:40px;
+    height:40px;
+    box-sizing: border-box;
+    padding:4px 4px 4px 0px;
+    border-radius: 50%;
+}
+
+#app img{
+    height:16px;
+    width:16px;
+}
+
+#sign-in{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 75px;
+    padding: 9px 23px;
+    letter-spacing: 0.25px;
+    margin: 12px 8px 12px 10px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font:14px Arial;
+    color: #fff;
+    background-color: #0b57d0;
+    white-space: nowrap;
+}

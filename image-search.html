@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Image Search</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <link rel="stylesheet" href="css/whole-body.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mid-section.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/search.css">
+    <body>
+        <header>
+            <div id="topright">
+                <a href="index.html" id="image">Google Search</a>
+                <a href="https://about.google/products/" id="app"><img src="images/app.png" alt="Google App"></a>
+                <a id="sign-in">Sign in</a>
+            </div>  
+        </header>
+        <main>
+            <div id="mid-section">
+                <div id="logo-container">
+                    <img src="images/google-logo.png" alt="google-logo" id="google-logo">
+                    <div class="image-word">images</div>
+                </div>
+            </div>
+            </div>
+            <form action="https://www.google.com/search" method="get" autocomplete="off">
+                <div class="search-container">
+                    <div id="left-icon">
+                        <img src="images/search-icon.png" alt="search-icon" id="search-symbol">
+                    </div>
+                    <input type="text" name="q" id="search-bar" autocomplete="off" required>
+                    <div id="right-icons">
+                        <img src="images/google-voice.png" alt="voice-icon" id="voice-symbol">
+                        <img src="images/google-lens.png" alt="lens-icon" id="lens-symbol">  
+                        <input type="image" src= "images/image-search.png" alt="image-search" id="image-search">
+                    </div>
+                <input type="hidden" name="udm" value="2">
+            </form>
+        </main>
+    </body>
+</html>

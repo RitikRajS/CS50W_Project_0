@@ -1,0 +1,10 @@
+form{
+    display:flex;
+    flex-direction: column;
+    padding:20px;
+    max-height: 160px;
+    box-sizing: border-box;
+    align-items: center;
+    margin:0px 32px;
+
+}

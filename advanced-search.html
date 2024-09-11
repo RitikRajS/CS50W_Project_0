@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/whole-body.css">
+        <link rel="stylesheet" href="css/header-advanced.css">
+        <link rel="stylesheet" href="css/midsection-advanced.css">
+        <link rel="stylesheet" href="css/search-advanced.css">
+        <link rel="stylesheet" href="css/main-headings.css">
+        <link rel="stylesheet" href="css/form-advanced.css">
+    </head>
+
+    <body>
+        <header>
+            <a href="index.html" id="home-page"><img src="images/google-logo.png" id="home-image"></a>  
+            <div id="topright">
+                <a href="index.html" id="home">Google Search</a>
+                <a href="https://about.google/products/" id="app"><img src="images/app.png" alt="Google App"></a>
+                <a id="sign-in">Sign in</a>
+            </div>   
+        </header>
+        <main>
+            <div id="appbar"> Advanced Search</div>
+            <hr class="solid">
+            <div class="search-container">
+                <div id="main-heading">
+                    <div id="heading-0">Find pages with....</div>
+                    <div id="heading-1">To do this in search box.</div>
+                </div>
+
+                <form action="https://www.google.com/search" method="get" autocomplete="off">
+                    <div id="first-form">
+                        <label id="labels">all of these words:</label>
+                        <input type="text" name="as_q" id="search-bar" autocomplete="off">
+                        <label id="instruction">Type the important words: tri-colour rat terrier</label>
+                    </div>
+                    <div id="second-form">
+                        <label id="labels">this exact word or phrase:</label>
+                        <input type="text" name="as_epq" id="search-bar" autocomplete="off">
+                        <label id="instruction">Put exact words in quotes: "rat terrier"</label>
+                    </div>
+                    <div id="third-form">
+                        <label id="labels">any of these words:</label>
+                        <input type="text" name="as_oq" id="search-bar" autocomplete="off">
+                        <label id="instruction">Type OR between all the words you want: miniature OR standard</label>
+                    </div>
+                    <div id="fourth-form">
+                        <label id="labels">none of these words:</label>
+                        <input type="text"  name="as_eq" id="search-bar" autocomplete="off">
+                        <label id="instruction">Put two full stops between the numbers and add a unit of measurement: 10..35 kg, £300..£500, 2010..2011</label>
+                    </div>
+                    <div id="button">
+                        <button type="submit" id="submit-button">Advanced Search</button>
+                    </div>
+                </form>
+            </div>
+
+        </main>
+    </body>
+</html>

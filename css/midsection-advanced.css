@@ -1,0 +1,16 @@
+#appbar{
+    display: block;
+    margin: 25px 35px 25px 45px;
+    color: #d93025;
+    font-size: 20px;
+    width:calc(100%-80px);
+
+}
+
+hr.solid{
+    border:none;
+    border-bottom: 1px solid #ebebeb;
+    margin:0px;
+    padding: 0px;
+
+}

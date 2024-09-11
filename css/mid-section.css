@@ -1,0 +1,28 @@
+#mid-section{
+    text-align: center;
+    display: flex;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo-container{
+    position:relative;
+    display:inline-block;
+}
+
+#google-logo{
+    display: block;
+    margin-top: 198px;
+    max-height:92px;
+    width:272px;
+}
+
+.image-word{
+    color: #4285f4;
+    font: 16px Arial, sans-serif;
+    position: absolute;
+    left:215px;
+    white-space: nowrap;
+    bottom: 0px
+}

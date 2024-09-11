@@ -1,0 +1,38 @@
+
+.search-container{
+    display:flex;
+    flex-direction: column;
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0 45px;
+
+}
+
+#main-heading{
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, sans-serif;
+    align-items: center;
+
+}
+#heading-0{
+    font-size: 16px;
+    width: 16%;
+    color: #333;
+    min-width: 167px;
+    min-height: 42px;
+    padding-top:10px;
+    box-sizing: border-box;
+
+}
+
+#heading-1{
+    margin-left:auto;
+    width: 33%;
+    font-size: 13px;
+    font-weight: 700;
+    color: #777;
+    padding-left: 5px;
+    white-space: nowrap;
+}

@@ -1,0 +1,71 @@
+.search-container{
+    display:flex;
+    width:100%;
+    max-width:584px;
+    min-height: 44px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    background-color: #fff;
+    padding: 5px 8px 5px 14px;
+    margin-top:6px;
+    box-sizing: border-box;
+    
+}
+
+#left-icon{
+    display: flex;
+    height:auto;
+    width:33px;  
+    box-sizing: border-box;
+    padding-right:13px;     
+    align-items: center;  
+}
+
+#search-symbol{
+display:flex;
+width:15px;
+height:15px;
+} 
+
+#search-bar{
+    font-size:14px;
+    font-family:Arial, sans-serif;
+    word-wrap: break-word;
+    box-sizing:border-box;
+    width:100%;
+    padding-right:4px;
+    border:none;
+    outline:none;
+
+}
+
+#right-icons{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+}
+
+#voice-symbol{
+    height:24px;
+    width:24px;
+    padding:0px 8px;
+}
+
+#lens-symbol{
+    height:16px;
+    width: 16px;
+    padding:0px 8px;
+}
+
+#image-search{
+    padding: 0px 13px 0px 16px;
+    height: 18px;
+    width: 18px;
+}
+
+
+.search-container:hover, .search-container:focus-within {
+    box-shadow: 0 1px 6px rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);  
+}
